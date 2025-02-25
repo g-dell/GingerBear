@@ -1,4 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+$dark-green: #576F72;
+$clear-green: #7D9D9C;
+$text-white: #F0EBE3;
+$clear-beige: #FFF2E1;
+$beige: #EAD8C0;
+$clear-brown: #D1BB9E;
+$dark-brown: #A79277;
+
+.dark-green {
+  color: $dark-green;
+}
+
+.clear-green {
+  color: $clear-green;
+}
+
+.text-white {
+  color: $text-white;
+}
+
+.clear-beige {
+  color: $clear-beige;
+}
+
+.beige {
+  color: $beige;
+}
+
+.clear-brown {
+  color: $clear-brown;
+}
+
+.dark-brown {
+  color: $dark-brown;
+}
 
 html, body { height: 100%; }
 body {

@@ -10,8 +10,9 @@ import {MatCardModule} from '@angular/material/card';
   styleUrl: './character-card.component.scss'
 })
 export class CharacterCardComponent {
-  longText = `The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog
-  from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was
-  originally bred for hunting.`;
+  longText = `Erza è una guerriera imponente con lunghi capelli rossi e occhi penetranti. La sua postura fiera e
+  la sua voce autoritaria impongono rispetto tra compagni e nemici. Indossa un'armatura scintillante, ma il suo vero
+  talento risiede nella sua magia di riorganizzazione, che le permette di evocare diverse armature e armi a seconda
+  della battaglia..`;
 }
 
