@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.button-click-me {
+  background-color: #7D9D9C !important;
+  color: #F0EBE3 !important;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.button-click-me:hover {
+  background-color: #5C8374;
+  transform: translate(-50%, -50%) scale(1.05);
+}
+
+.button-click-me:active {
+  background-color: #3F6256;
+  transform: translate(-50%, -50%) scale(0.95);
+}
+
+.custom-snackbar {
+  background-color: #A79277 !important;
+  color: #EAD8C0 !important;
+  font-weight: bold;
+  text-align: center;
+  width: 30px;
+  height: auto;
+}

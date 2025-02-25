@@ -1,11 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
-$dark-green: #576F72;
-$clear-green: #7D9D9C;
-$text-white: #F0EBE3;
-$clear-beige: #FFF2E1;
-$beige: #EAD8C0;
-$clear-brown: #D1BB9E;
-$dark-brown: #A79277;
+@use "styles/colors" as *;
 
 .dark-green {
   color: $dark-green;

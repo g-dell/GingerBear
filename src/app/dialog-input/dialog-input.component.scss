@@ -1,0 +1,59 @@
+mat-dialog-content {
+  background-color: #A79277; // Sfondo scuro per il dialogo
+  padding: 20px;
+  color: #7D9D9C;
+
+  h2,
+  p {
+    color: #FFF2E1;
+    margin-bottom: 15px;
+  }
+
+  mat-form-field {
+    width: 100%;
+    margin-bottom: 15px;
+
+    mat-label {
+      color: #A79277; // Colore del testo delle label
+    }
+
+    input {
+      color: #576F72;
+    }
+  }
+}
+
+mat-dialog-actions {
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px;
+  background-color: #576F72;
+
+  button {
+    color: #EAD8C0;
+    background-color: transparent;
+    border: 1px solid #7d9d9c;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+
+    &:hover {
+      background-color: #7D9D9C;
+      transform: scale(1.05);
+    }
+
+    &:active {
+      background-color: #6f8b8b;
+      transform: scale(0.95);
+    }
+
+    &:first-child {
+      margin-right: 10px;
+      border-color: #A79277;
+      &:hover {
+        background-color: #A79277;
+      }
+    }
+  }
+}
