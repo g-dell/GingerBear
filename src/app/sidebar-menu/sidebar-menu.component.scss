@@ -11,3 +11,22 @@
 .custom-icon {
   color: #576F72;
 }
+
+
+.example-container {
+  width: auto;
+  // height: 300px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  flex: 1 1 auto;
+}
+
+#menu-icon {
+  display: flex;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-sidenav {
+  padding: 20px;
+}
